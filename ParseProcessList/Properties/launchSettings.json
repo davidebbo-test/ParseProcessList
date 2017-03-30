@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ParseProcessList": {
+      "commandName": "Project",
+      "commandLineArgs": "list1.txt list2.txt",
+      "workingDirectory": "..\\TestData"
+    }
+  }
+}

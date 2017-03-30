@@ -1,0 +1,74 @@
+Pid WorkingSet(MB) HandleCount CpuTime ProcessName
+1540       6          220        00:00:01   AnonymizedLogUploader.exe <AnonymizedLogUploader> 
+3152       0          472        00:00:28   BinarySelfUpgradeService.exe
+1284       0          104        00:00:00   clouddrivesvc.exe    <CloudDrive> 
+3308       0          25         00:00:00   cmd.exe             
+3132       0          45         00:00:00   cmd.exe             
+2612       0          59         00:00:00   cmd.exe              <~1blahqa> 
+9764       0          58         00:00:00   cmd.exe              <~1blahqa> 
+7196       0          58         00:00:00   cmd.exe              <~1blah> 
+1544       0          39         00:00:00   conhost.exe         
+3500       0          31         00:00:00   conhost.exe         
+3656       0          33         00:00:41   conhost.exe         
+3128       0          34         00:00:01   conhost.exe         
+4060       0          33         00:00:03   conhost.exe         
+6248       2          31         00:00:00   conhost.exe         
+2596       12         380        00:00:33   ConnectivityTester.exe
+396        2          549        00:00:33   csrss.exe           
+448        0          83         00:00:00   csrss.exe           
+3696       46         1158       00:07:21   DWASSVC.exe          <DWASSVC> 
+776        0          177        00:00:00   dwm.exe             
+768        1          280        00:00:00   LogonUI.exe         
+552        11         1082       01:16:14   lsass.exe            <KeyIso,SamSs> 
+4520       2          54         00:00:00   memstat.exe         
+3572       11         3519       00:07:21   MetricsExtension.Native.exe
+3168       75         1585       01:50:16   MonAgentCore.exe    
+3080       0          64         00:00:00   MonAgentHost.exe    
+988        1          55         00:00:00   MonAgentLauncher.exe
+628        19         191        00:00:22   MonAgentLauncherLauncher.exe
+3096       0          112        00:00:00   MonAgentManager.exe 
+3544       0          156        00:00:00   msdtc.exe            <MSDTC> 
+732        95         597        00:54:11   MsMpEng.exe          <MsMpSvc> 
+1724       12         769        00:24:20   ResourceMeteringService.exe <ResourceMetering> 
+3636       11         571        00:00:15   blah.EmailNewMemberBroadcast.exe <~1blahqa> 
+2080       11         491        00:00:01   blah.EmailNewMemberBroadcast.exe <~1blah> 
+4104       132        503        04:59:05   blah.ListingImport.exe <~1blahqa> 
+3648       38         699        00:28:51   RTFunctionsEventsPusherHost.exe
+3484       18         245        00:00:20   RTFunctionsEventsPusherHostLauncher.exe
+2008       0          112        00:00:00   rundll32.exe        
+2672       0          109        00:00:00   rundll32.exe        
+3300       1          253        00:00:00   SecurityScanMgr.exe 
+544        7          274        00:01:02   services.exe        
+300        0          50         00:00:00   smss.exe            
+1660       0          81         00:00:00   StandardCollector.Service.exe <VSStandardCollectorService140> 
+640        2          296        00:03:39   svchost.exe          <BrokerInfrastructure,DcomLaunch,LSM,PlugPlay,Power> 
+672        3          350        00:00:49   svchost.exe          <RpcEptMapper,RpcSs> 
+932        12         512        03:22:55   svchost.exe          <Dhcp,EventLog,lmhosts,vmictimesync> 
+960        28         1156       00:06:01   svchost.exe          <BITS,gpsvc,iphlpsvc,ProfSvc,Schedule,SENS,Themes,Winmgmt> 
+992        5          863        00:00:25   svchost.exe          <EventSystem,FontCache,netprofm,nsi,W32Time> 
+360        6          587        00:01:22   svchost.exe          <CryptSvc,Dnscache,LanmanWorkstation,NlaSvc> 
+1112       17         351        00:02:39   svchost.exe          <BFE,MpsSvc,pla> 
+1340       6          231        00:00:41   svchost.exe          <SrmSvc> 
+1372       6          331        00:04:43   svchost.exe          <UALSVC,UmRdpService,vmickvpexchange,vmicshutdown,vmicvss> 
+2088       1          362        00:00:00   svchost.exe          <TermService> 
+2108       2          98         00:00:28   svchost.exe          <PolicyAgent> 
+2128       0          245        00:00:54   svchost.exe          <vmicheartbeat,vmicrdv> 
+4          0          732        00:20:25   System              
+0          0          0          375:17:07  System Process      
+3464       2          109        00:00:00   UserGroupScanner.exe
+2308       1          155        00:00:00   vds.exe              <vds> 
+2068       0          108        00:00:00   VSSVC.exe            <VSS> 
+556        10         408        00:03:31   w3wp.exe             <OnDemandConfigAndForwarder> 
+2940       3          431        00:02:19   w3wp.exe             <mawscanary-334e7317-c2d538a4> 
+9672       19         1492       00:04:35   w3wp.exe             <blahqa> 
+3764       16         1813       00:00:59   w3wp.exe             <~1blahqa> 
+876        252        1743       00:00:48   w3wp.exe             <blah> 
+4536       24         1055       00:00:05   w3wp.exe             <~1blah> 
+1624       17         329        00:01:25   WaAppAgent.exe       <RdAgent> 
+2208       11         375        00:00:21   WaHostBootstrapper.exe
+3768       4          1397       00:11:42   WaWorkerHost.exe    
+1412       29         522        00:01:32   WindowsAzureGuestAgent.exe <WindowsAzureGuestAgent> 
+1556       5          362        00:00:03   WindowsAzureTelemetryService.exe <WindowsAzureTelemetryService> 
+456        0          79         00:00:00   wininit.exe         
+484        0          107        00:00:00   winlogon.exe        
+2204       16         2118       00:02:38   WmiPrvSE.exe        
