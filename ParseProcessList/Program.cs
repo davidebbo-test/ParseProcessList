@@ -9,14 +9,8 @@ namespace ParseProcessList
     {
         static void Main(string[] args)
         {
-            if (args.Length != 2)
-            {
-                Console.WriteLine("Syntax: ParseProcessList file1 file2");
-                return;
-            }
-
-            var first = ParseFile(args[0]);
-            var second = ParseFile(args[1]);
+            var first = ParseFile();
+            var second = ParseFile();
 
             foreach(var newEntry in second.Values)
             {
@@ -26,18 +20,24 @@ namespace ParseProcessList
                 }
             }
 
-            foreach (var newEntry in second.Values.Where(e => e.CpuTimeDelta != TimeSpan.Zero).OrderByDescending(e => e.CpuTimeDelta))
+            foreach (var newEntry in second.Values.Where(e => e.CpuTimeDelta != TimeSpan.Zero).OrderByDescending(e => e.CpuTimeDelta).Take(10))
             {
                 Console.WriteLine($"{newEntry.PID,-12} {newEntry.Exe,-35} {newEntry.Process,-35}: {newEntry.CpuTimeDelta}");
             }
         }
 
-        static IDictionary<string, ProcessEntry> ParseFile(string file)
+        static IDictionary<string, ProcessEntry> ParseFile()
         {
             var dict = new Dictionary<string, ProcessEntry>();
 
-            foreach (var line in File.ReadAllLines(file))
+            for (; ; )
             {
+                string line = Console.ReadLine();
+                if (String.IsNullOrWhiteSpace(line)) break;
+
+                // Skip lines that don't start with a PID
+                if (!Char.IsDigit(line[0])) continue;
+
                 ProcessEntry entry = ProcessEntry.Parse(line);
                 if (entry == null) continue;
 
